@@ -1,0 +1,37 @@
+body{
+    background-image:url('osasco.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Condensed:wght@300&display=swap');
+
+h1{
+    margin-top: 3%;
+    text-align: center;
+    font-style: inherit;
+
+}
+
+.texto{
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    border-style:groove;
+    border-width: 5px;
+    border-color: aqua;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aliceblue;
+    /*borda arredondada*/
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*padding*/
+    padding: 10px;
+    /*fontes*/
+
+}
