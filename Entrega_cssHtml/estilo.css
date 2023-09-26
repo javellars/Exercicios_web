@@ -1,0 +1,444 @@
+body{
+    background-color: #fed99b;
+}
+
+.apr_conteudo{
+    padding: 110px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 50px;
+
+}
+
+#card_conteudo_html{
+    background-color: #FFFACD	 ;
+    width: 650px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    border-color: #FFDAB9		;
+
+}
+
+#card_conteudo_css{
+    background-color: #FFFACD ;
+    width: 650px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    border-color: #FFDAB9		;
+
+}
+
+#card_conteudo_js{
+    background-color: #FFFACD ;
+    width: 650px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    border-color: #FFDAB9		;
+
+}
+
+#card_conteudo_php{
+    background-color: #FFFACD ;
+    width: 650px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    border-color: #FFDAB9		;
+
+}
+
+
+
+
+#html_img{
+    height: 190px;
+    width: 150px;
+}
+
+#css_img{
+    height: 190px;
+    width: 150px;
+}
+
+#js_img{
+    height: 190px;
+    width: 150px;
+}
+
+#php_img{
+    height: 120px;
+    width: 190px;
+    padding-top: 20px;
+}
+
+
+
+#php_logo{
+    width:150px ;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.logos{
+    width: 120px;
+    height: 130px;
+    text-align: center;
+}
+
+.logo_circular{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 200px;
+    width: 200px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+/* tudo que tiver com underline é css que eu criei, os outros do html são nativos do bootstrap*/
+
+#bloco1{
+    margin-top: 15px;
+}
+
+.textbox{
+    margin-top: 100px;
+    text-align: justify;
+    background-color: rgba(255,250,205, 0.5);
+    height: 250px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: garamond;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:-15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textbox_refs{
+    margin-top: 100px;
+    text-align: justify;
+    background-color: rgba(255,250,205, 0.5);
+    height: auto;
+    padding: 15px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: garamond;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:-15px 15px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.textbox_av{
+    margin-top: 100px;
+    text-align: justify;
+    background-color: rgba(255,250,205, 0.5);
+    height: auto;
+    padding: 15px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: garamond;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:-15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.titulos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#topicos{
+    margin: 60px;
+}
+
+#barra{
+    background-color: #FF8C00				;
+    height: 70px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#txt_barra0{
+    font-size: medium;
+    color: #1C1C1C;
+}
+
+#txt_barra1{
+    font-size: medium;
+    color: #1C1C1C;
+}
+#txt_barra2{
+    font-size: medium;
+    color: #1C1C1C;
+}
+#txt_barra3{
+    font-size: medium;
+    color: #1C1C1C;
+}
+#txt_barra4{
+    font-size: medium;
+    color: #1C1C1C;
+}
+
+#txt_barra5{
+    font-size: medium;
+    color: #1C1C1C;
+}
+
+#txt_barra6{
+    font-size: medium;
+    color: #1C1C1C;
+}
+
+#txt1_barra{
+    font-size: medium;
+    color: black;
+}
+
+#txt_inicial{
+    margin: 100px;
+    text-align: center;
+}
+
+.subtxt{
+    font-family: 'Courier New', Courier, monospace;
+    color: #1C1C1C;
+
+}
+
+.textbox_topicos{
+    margin-top: 100px;
+    text-align: justify;
+    background-color: rgba(255,250,205, 0.5);
+    height: 250px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: garamond;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:-15px 15px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: auto;
+    margin: 50px; 
+    padding: 15px ;
+}
+
+ 
+#titulotopicos0{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+#titulotopicos1{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+#titulotopicos2{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+#titulotopicos3{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+#titulotopicos4{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+#titulotopicos5{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+#menutopico1{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#menutopico2{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#menutopico3{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#menutopico4{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#menutopico5{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#menutopico6{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgba(255,250,205, 0.5);
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.blocotopicos{
+    display: flex;
+}
+
+#referencias{
+    margin-top: 120px;
+    margin-left: 260px;
+}
+
+#topicos{
+    text-decoration: none;
+}
