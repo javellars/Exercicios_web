@@ -12,7 +12,7 @@
 </head>
 
 <!--Construção do menu lateral-->
-<body style="background-color: lightcyan;">
+<body style="background-color: MintCream;">
 
 <div class="container" id="cont_principal">
             <div class="menuLateral" id="menuLateral">
@@ -36,18 +36,19 @@
 
     <div class="card_cadastro">
         <h1 class="titulo">Cadastre-se</h1>
-            <select name="sex">
+            <select name="sex" id="sex">
+                <option value="" disabled selected>Selecione o sexo</option>
                 <option value="feminino">Feminino</option>
                 <option value="masculino">Masculino</option>
             </select>
-            <input type="text" placeholder="Digite seu nome">
-            <input type="number" placeholder="Digite seu RA">
-            <input type="text" placeholder="Digite seu endereço"> <!--multivalorado-->
-            <input type="number" placeholder="Digite seu telefone">
-            <input type="text" placeholder="Digite seu e-mail">
+            <input type="text" placeholder="Digite seu nome" id="nome">
+            <input type="number" placeholder="Digite seu RA" id="ra">
+            <input type="text" placeholder="Digite seu endereço" id="end"> <!--multivalorado-->
+            <input type="number" placeholder="Digite seu telefone" id="tel">
+            <input type="text" placeholder="Digite seu e-mail" id="email">
                 
-            <button>Cadastrar</button>
-            <button> Limpar Dados</button>
+            <button onclick="validarCadastro()">Cadastrar</button>
+            <button onclick="limparDados()"> Limpar Dados</button>
 
     </div>
 
