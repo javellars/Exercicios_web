@@ -11,30 +11,48 @@
 
 </head>
 
+<!--Construção do menu lateral-->
 <body style="background-color: lightcyan;">
 
-    <div class="container">
-        <div class="menuLateral" id="menuLateral">
-            <div class="menu-toggle" onclick="toggleMenu()">
-                <i class="fa-solid fa-bars fa-2xl"></i>
+<div class="container" id="cont_principal">
+            <div class="menuLateral" id="menuLateral">
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-regular fa-pen-to-square"></i> Cadastro</a></li>
+                        <li> <a href="alunoLista.html" > <i class="fa-solid fa-users"></i> Alunos</a></li>
+                        <li> <a href="referencia.html"> <i class="fa-solid fa-quote-left"></i> Referências</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html"><i class="fa-regular fa-pen-to-square"></i> Cadastro</a></li>
-                    <li> <a href="alunoLista.html" > <i class="fa-solid fa-users"></i> Alunos</a></li>
-                    <li> <a href="referencia.html"> <i class="fa-solid fa-quote-left"></i> Referências</a></li>
-                </ul>
-            </nav>
-        </div>
 
-       
+        
+    
+
+
+    <!--Cadastro de dados-->
+
+    <div class="card_cadastro">
+        <h1 class="titulo">Cadastre-se</h1>
+            <select name="sex">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+            </select>
+            <input type="text" placeholder="Digite seu nome">
+            <input type="number" placeholder="Digite seu RA">
+            <input type="text" placeholder="Digite seu endereço"> <!--multivalorado-->
+            <input type="number" placeholder="Digite seu telefone">
+            <input type="text" placeholder="Digite seu e-mail">
+                
+            <button>Cadastrar</button>
+            <button> Limpar Dados</button>
+
     </div>
 
 
-
-
-
-
+</div>
 
 
 

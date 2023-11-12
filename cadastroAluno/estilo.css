@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap');
 
-
+#cont_principal{
+    display: flex;
+}
+/*Configs do menu lateral*/
 .menuLateral {
     width: 300px;
     height: 100vh;
@@ -9,6 +13,7 @@
     transform: translateX(-100%);
     transition: background-color 0.3s, color 0.3s;
     box-shadow: 0px 0px 5px #444;
+  
 }
 
 .menuLateral.visible {
@@ -28,8 +33,9 @@
     padding: 10px; /* Ajuste o espaçamento conforme necessário */
     display: block;
     color: #333;
+    font-family: 'Noto Sans', sans-serif;
 }
--->
+
 
 .menuLateral ul {
     list-style: none;
@@ -43,3 +49,59 @@
     text-align: center;
     padding-left: 200px;
 }
+
+/*Começa o formulário de cadastro*/
+
+.card_cadastro{
+    background-color: rgba(220,220,220, 0.5);
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 5px #333;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card_cadastro input[type="text"],
+.card_cadastro input[type="number"]{
+    text-align: justify;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+select{
+    text-align: justify;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-style: none; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo{
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+button{
+    width: 40%;
+    font-size: 12px;
+    padding: 10px;
+    margin: 20px;
+    background-color: LightSteelBlue	;
+    border-style: none;
+    font-family: 'Noto Sans', sans-serif;
+ }
